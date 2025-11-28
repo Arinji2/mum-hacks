@@ -19,24 +19,17 @@ export default async function Report({
 
 	return (
 		<div className="w-full h-fit flex flex-col items-center justify-start py-8 gap-6 px-6">
-			{" "}
-			<div className="w-full h-fit flex flex-row items-start justify-between">
-				{" "}
+			<div className="w-full h-fit flex flex-col gap-2  md:flex-row items-start justify-between">
 				<div className="w-fit h-fit flex flex-col items-start justify-start">
-					{" "}
 					<h1 className="text-3xl font-bold tracking-tighter">
-						{" "}
 						Sentiment Analysis Report{" "}
-					</h1>{" "}
+					</h1>
 					<h2 className="text-xl text-black font-medium">Iphone X</h2>{" "}
 					<h3 className="text-slate-600 text-xl">by Apple</h3>{" "}
-				</div>{" "}
+				</div>
 				<div className="w-fit shadow-button h-fit p-1 px-3 border-[3px] border-black">
-					{" "}
-					<p className="text-lg font-medium">
-						REPORT DATE: OCTOBER 27, 2025
-					</p>{" "}
-				</div>{" "}
+					<p className="text-lg font-medium">REPORT DATE: OCTOBER 27, 2025</p>
+				</div>
 			</div>
 			<div
 				style={
@@ -44,14 +37,14 @@ export default async function Report({
 						"--color": fillColor,
 					} as React.CSSProperties
 				}
-				className="w-full h-fit border-[3px] p-3 border-black shadow-button flex flex-col items-start justify-start "
+				className="w-full h-fit border-[3px] p-3 border-black shadow-button flex flex-col md:items-start items-center justify-start "
 			>
 				<h4 className="text-lg tracking-wider font-medium">
 					OVERALL SENTIMENT SCORE
 				</h4>
 
-				<div className="w-full h-fit flex flex-row items-center justify-center gap-4">
-					<p className="text-7xl font-bold text-black">
+				<div className="w-full h-fit flex flex-col md:flex-row items-center justify-center gap-4">
+					<p className=" text-5xl md:text-7xl font-bold text-black">
 						{reportScore}
 						<span className="text-slate-700 text-3xl">/10</span>
 					</p>
@@ -93,7 +86,7 @@ export default async function Report({
 					multiple times on a daily basis
 				</p>
 			</div>
-			<div className="w-full h-fit flex xl:grid-cols-3 gap-3 md:grid-cols-2 grid-cols-1">
+			<div className="w-full h-fit grid xl:grid-cols-3 gap-3 md:grid-cols-2 grid-cols-1">
 				<div className="w-full h-fit flex border-black border-[3px] shadow-button flex-col items-start justify-center p-3 gap-2">
 					<p className="text-2xl font-semibold">REDDIT</p>
 					<Card content="This is a test review, the product is very good and I would use it multiple times on a daily basis" />
