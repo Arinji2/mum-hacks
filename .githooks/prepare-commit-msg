@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# The commit message file
+MSG_FILE=$1
+
+# Detect staged files
+STAGED=$(git diff --cached --name-only)
+
+# Decide prefix based on folder
+if echo "$STAGED" | grep -q "^frontend/"; then
+    PREFIX="frontend: "
+elif echo "$STAGED" | grep -q "^backend/"; then
+    PREFIX="backend: "
+elif echo "$STAGED" | grep -q "^ml/"; then
+    PREFIX="ml: "
+else
+    PREFIX="misc: "
+fi
+
+# Only add prefix if not already present
+if [ -n "$PREFIX" ] && ! grep -q "^$PREFIX" "$MSG_FILE"; then
+    sed -i "1s/^/$PREFIX/" "$MSG_FILE"
+fi
