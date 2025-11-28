@@ -22,7 +22,7 @@ export default async function HomePage() {
 					{Array(10)
 						.fill(0)
 						.map((_, i) => (
-							<Card i={i} />
+							<Card key={i} i={i} />
 						))}
 				</div>
 			</div>
