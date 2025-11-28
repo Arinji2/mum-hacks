@@ -107,6 +107,11 @@ const config = {
 					DEFAULT: "hsl(var(--secondary))",
 					foreground: "hsl(var(--secondary-foreground))",
 				},
+				sentiments: {
+					positive: "#86efac",
+					negative: "#fca5a5",
+					neutral: "#EFEF86",
+				},
 				success: "hsl(var(--success))",
 				error: "hsl(var(--error))",
 				warning: "hsl(var(--warning))",
