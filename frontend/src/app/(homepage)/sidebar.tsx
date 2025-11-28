@@ -1,8 +1,16 @@
 import { Checkbox } from "@/components/ui/checkbox";
+import { cn } from "@/lib/utils";
 
-export function Sidebar() {
+export function Sidebar({ showSidebar }: { showSidebar: boolean }) {
 	return (
-		<div className="w-[20%] sticky top-0 shrink-0 flex py-6 px-4  gap-10 flex-col items-start justify-start h-full border-r-[3px] border-black">
+		<div
+			className={cn(
+				"w-[80%] overflow-scroll md:translate-x-0 transition-all ease-in-out duration-200 -translate-x-[100%] h-[100svh] bg-white z-30 md:w-[20%] fixed md:sticky top-0 shrink-0 flex py-6 px-4  gap-10 flex-col items-start justify-start border-r-[3px] border-black",
+				{
+					"translate-x-0": showSidebar,
+				},
+			)}
+		>
 			<div className="w-full h-fit gap-2 flex flex-row items-center justify-start">
 				<div className="size-10 bg-black"></div>
 				<h1 className="text-black text-3xl font-bold">Clarity</h1>
