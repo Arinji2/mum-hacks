@@ -73,6 +73,7 @@ const config = {
 			},
 			colors: {
 				main: "#FFFF00",
+				offwhite: "#4b5563",
 				accent: {
 					DEFAULT: "hsl(var(--accent))",
 					foreground: "hsl(var(--accent-foreground))",
