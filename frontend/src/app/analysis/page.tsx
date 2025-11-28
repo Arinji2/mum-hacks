@@ -11,7 +11,7 @@ export default async function Analysis() {
 			<h1 className="text-7xl font-bold tracking-tighter ">
 				Analyzing <br /> Sentiment
 			</h1>
-			<div className="w-[70%] h-fit flex flex-col items-center justify-center gap-5">
+			<div className="w-full px-2 md:w-[70%] h-fit flex flex-col items-center justify-center gap-5">
 				<Item status="complete" text="Verifying Product" color="#4ade80" />
 				<Item
 					status="in-progress"
@@ -49,7 +49,7 @@ function Item({
 	return (
 		<div
 			className={cn(
-				"w-full border-[3px] border-black shadow-button flex p-5 items-center justify-between h-fit bg-[--color]",
+				"w-full md:flex-row flex-col items-start border-[3px] border-black shadow-button flex p-5 md:items-center justify-between h-fit bg-[--color]",
 				{
 					"bg-white": status === "queued",
 				},
