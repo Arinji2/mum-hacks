@@ -41,6 +41,7 @@
     "nextjs-better-unstable-cache": "^1.1.0",
     "pg": "8.11.3",
     "pg-protocol": "1.10.0",
+    "pocketbase": "^0.26.3",
     "prism-react-renderer": "^2.4.1",
     "react": "19.0.0",
     "react-dom": "19.0.0",
