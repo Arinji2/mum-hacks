@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Iphone 11",
+    "brand": "apple",
+    "year": 2019,
+    "image_path": "/apple/Iphone11"
+  },
+  {
+    "name": "Iphone 12",
+    "brand": "apple",
+    "year": 2025,
+    "image_path": "/apple/Iphone12"
+  },
+  {
+    "name": "Iphone 13",
+    "brand": "apple",
+    "year": 2021,
+    "image_path": "/apple/Iphone13"
+  },
+  {
+    "name": "Iphone 14",
+    "brand": "apple",
+    "year": 2022,
+    "image_path": "/apple/Iphone14"
+  },
+  {
+    "name": "Iphone 15",
+    "brand": "apple",
+    "year": 2023,
+    "image_path": "/apple/Iphone15"
+  },
+  {
+    "name": "Iphone 16",
+    "brand": "apple",
+    "year": 2024,
+    "image_path": "/apple/Iphone16"
+  },
+  {
+    "name": "Iphone 17",
+    "brand": "apple",
+    "year": 2025,
+    "image_path": "/apple/Iphone17"
+  },
+  {
+    "name": "Iphone X",
+    "brand": "apple",
+    "year": 2018,
+    "image_path": "/apple/IphoneX"
+  },
+  {
+    "name": "Daydream View",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/DaydreamView"
+  },
+  {
+    "name": "Nest Audio",
+    "brand": "google",
+    "year": 2020,
+    "image_path": "/google/NestAudio"
+  },
+  {
+    "name": "Nest Cam",
+    "brand": "google",
+    "year": 2017,
+    "image_path": "/google/NestCam"
+  },
+  {
+    "name": "Nest Doorbell",
+    "brand": "google",
+    "year": 2024,
+    "image_path": "/google/NestDoorbell"
+  },
+  {
+    "name": "Nest Hello",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/NestHello"
+  },
+  {
+    "name": "Nest Hub Max",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/NestHubMax"
+  },
+  {
+    "name": "Nest Mini",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/NestMini"
+  },
+  {
+    "name": "Nest Protect",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/NestProtect"
+  },
+  {
+    "name": "Nest Thermostat",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/NestThermostat"
+  },
+  {
+    "name": "Nest Wifi",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/NestWifi"
+  },
+  {
+    "name": "Pixel 10",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/Pixel10"
+  },
+  {
+    "name": "Pixel 8",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/Pixel8"
+  },
+  {
+    "name": "Pixel 9",
+    "brand": "google",
+    "year": 2024,
+    "image_path": "/google/Pixel9"
+  },
+  {
+    "name": "Pixel Buds A-Series",
+    "brand": "google",
+    "year": 2021,
+    "image_path": "/google/PixelBuds"
+  },
+  {
+    "name": "Pixel Buds",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/PixelBuds"
+  },
+  {
+    "name": "Pixel Fold",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/PixelFold"
+  },
+  {
+    "name": "Pixel Slate",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/PixelSlate"
+  },
+  {
+    "name": "Pixel Stand",
+    "brand": "google",
+    "year": 2019
+  },
+  {
+    "name": "Pixelbook Go",
+    "brand": "google",
+    "year": 2017
+  },
+  {
+    "name": "Stadia",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/Stadia"
+  },
+  {
+    "name": "pixel watch",
+    "brand": "google",
+    "year": 2025,
+    "image_path": "/google/PixelWatch"
+  },
+  {
+    "name": "Horizon Workrooms",
+    "brand": "meta",
+    "year": 2025,
+    "image_path": "/meta/HorizonWorkrooms"
+  },
+  {
+    "name": "Meta Quest",
+    "brand": "meta",
+    "year": 2024,
+    "image_path": "/meta/MetaQuest"
+  },
+  {
+    "name": "Meta Social VR products",
+    "brand": "meta",
+    "year": 2025,
+    "image_path": "/meta/MetaQuest"
+  },
+  {
+    "name": "Meta smart home integration",
+    "brand": "meta",
+    "year": 2025,
+    "image_path": "/meta/Metasmarthomeintegration"
+  },
+  {
+    "name": "Portal",
+    "brand": "meta",
+    "year": 2023,
+    "image_path": "/meta/Portal"
+  },
+  {
+    "name": "meta glass",
+    "brand": "meta",
+    "year": 2024,
+    "image_path": "/meta/metaglass"
+  },
+  {
+    "name": "GeForce RTX 1650",
+    "brand": "nvidia",
+    "year": 2025,
+    "image_path": "/nvidia/1650"
+  },
+  {
+    "name": "GeForce RTX 1660",
+    "brand": "nvidia",
+    "year": 2025,
+    "image_path": "/nvidia/1660"
+  },
+  {
+    "name": "GeForce RTX 3050",
+    "brand": "nvidia",
+    "year": 2022,
+    "image_path": "/nvidia/3050"
+  },
+  {
+    "name": "GeForce RTX 3060",
+    "brand": "nvidia",
+    "year": 2021,
+    "image_path": "/nvidia/3060"
+  },
+  {
+    "name": "GeForce RTX 3070",
+    "brand": "nvidia",
+    "year": 2020,
+    "image_path": "/nvidia/3070"
+  },
+  {
+    "name": "GeForce RTX 3080",
+    "brand": "nvidia",
+    "year": 2025,
+    "image_path": "/nvidia/3080"
+  },
+  {
+    "name": "GeForce RTX 3090",
+    "brand": "nvidia",
+    "year": 2022,
+    "image_path": "/nvidia/GeForceRTX3090"
+  },
+  {
+    "name": "GeForce RTX 4070",
+    "brand": "nvidia",
+    "year": 2024,
+    "image_path": "/nvidia/4070"
+  },
+  {
+    "name": "GeForce RTX 4080",
+    "brand": "nvidia",
+    "year": 2025,
+    "image_path": "/nvidia/4080"
+  },
+  {
+    "name": "GeForce RTX 5070",
+    "brand": "nvidia",
+    "year": 2025,
+    "image_path": "/nvidia/5070"
+  },
+  {
+    "name": "GeForce RTX 5080",
+    "brand": "nvidia",
+    "year": 2025,
+    "image_path": "/nvidia/5080"
+  },
+  {
+    "name": "GeForce RTX 5090",
+    "brand": "nvidia",
+    "year": 2025,
+    "image_path": "/nvidia/5090"
+  },
+  {
+    "name": "NVIDIA Broadcast",
+    "brand": "nvidia",
+    "year": 2025
+  },
+  {
+    "name": "NVIDIA DGX Cloud",
+    "brand": "nvidia",
+    "year": 2025
+  },
+  {
+    "name": "NVIDIA Shield TV",
+    "brand": "nvidia",
+    "year": 2019
+  }
+]
