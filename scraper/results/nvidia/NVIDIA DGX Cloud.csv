@@ -1,0 +1,50 @@
+year,content,source
+2025,"The NVIDIA DGX cloud GPUs have a substantial 128GB memory capacity, which is beneficial for demanding tasks.",x
+2025,The DGX Spark impresses with its design and capability to run large AI models locally instead of relying on the cloud.,x
+2025,I am impressed with the NVIDIA DGX Spark the GB10 Machine is very powerful and efficient for AI tasks.,x
+2025,"DGX Cloud with OME and SGLang enables MoE inference at production scale, which I find very appealing for large applications.",x
+2025,"I appreciate the NVIDIA DGX Cloud Innovation Lab, it gives access to dedicated resources for AI development and experimentation.",x
+2024,"The NVIDIA DGX pods could be a game-changer for AI infrastructure, providing scalable resources for demanding workloads.",x
+2025,Nebius's data indicates that DGX Cloud Benchmarks deliver excellent performance compared to average GPU cloud providers.,x
+2025,"I tested the NVIDIA DGX Spark on LLM, image and video related tasks and I am pleased with the results.",x
+2025,"I'm finding the NVIDIA DGX is simple to use with its Cluster Engine, and offers a seamless experience for AI development.",x
+2025,"The NVIDIA DGX Cloud provides day-0 model support and has shown a significant reduction in serverless downtime, which is very valuable.",x
+2025,"The NVIDIA DGX spark is an irresistible option to purchase, I'm seriously considering to buy it.",x
+2025,"Nvidia DGX Cloud allows you to train your own ChatGPT in a web browser for $37K a month, which is very expensive.",x
+2025,"I am on the fence about buying the new @nvidia DGX Spark, need to do more research to assess its value.",x
+2017,"With a budget under $100,000, should our lab purchase a server or a supercomputer like NVIDIA DGX for deep learning?",quora
+2018,Introducing the NVIDIA DGX Station! This machine outperforms other PCs. Cloud storage is a good addition.,quora
+2015,Nvidia DGX is used in HPC-AI for AI-based super computers. It's very powerful for these tasks.,quora
+2023,Nvidia DGX is used in HPC-AI for AI based super computer. You can rent GPU/hardware on the cloud.,quora
+2019,"Introducing the Nvidia DGX Station! This beast destroys other pcs, it's an impressive piece of technology.",quora
+2016,Should I buy Nvidia DGX station to learn and improve my knowledge in AI?,quora
+2017,Introducing the Nvidia DGX Station! This beast destroys other pcs. It's a great product to review.,quora
+2020,"Introducing, The Nvidia DGX Station! This beast destroys other pcs, is very powerful.",quora
+2019,Is the power of NVIDIA DGX-2 worth the cost ($0.4m)? It seems quite expensive.,quora
+2020,"Introducing the Nvidia DGX Station! This beast destroys other pcs, it's an impressive server.",quora
+2019,"Should I buy Nvidia DGX station? It's a big investment, but may be worth it.",quora
+2017,"We have Tesla K80 and will hopefully be receiving DGX's too, it should speed up our work.",quora
+2025,DGX is garbage mini PCs with AMD AI are better. Renting A100 hourly doesn't make sense cost-wise.,reddit
+2025,"The initial pre-order price was high. At the current price, it's too expensive for me.",reddit
+2025,"It's not great for image generation, better for large LLMs needing memory. RTX 5090 is cheaper.",reddit
+2025,It's not good for LLMs or image generation. Overpriced and kind of pointless in my opinion.,reddit
+2025,"Asus GX10 is cheaper than DGX Spark, and Grace Blackwell is a fraction of RTX performance.",reddit
+2025,"I'll consider it with Spark 3. I like the small form factor, but I don't need it now.",reddit
+2025,"Spark makes a 5s video with wan 2.2 that takes 216 seconds, its cheaper options for llms.",reddit
+2025,You can build a cheaper and faster machine. This looks like a money grab for newcomers.,reddit
+2025,"This reminds me of crypto miners. Waiting for new tech is better, this seems like a money grab.",reddit
+2025,"It's a dev kit for bigger clusters of more capable Nvidia products, according to reviews.",reddit
+2025,You can get better RTX GPUs and RAM for a normal PC. This only consumes less wattage.,reddit
+2025,They are late to the party and overcharging. AMD's Strix Halo is a better approach.,reddit
+2025,Would using optimized FP4 images from hugging face and TensorRT LLM make a difference?,reddit
+2024,Why would customers continue using Oracle once AWS gets enough GPUs to rent out?,reddit
+2024,"Nvidia's next revenue stream is software licensing, it is only a matter of time.",reddit
+2024,I don't think they have always. Is that a good sign of a stock?,reddit
+2024,"This post reads like cope to me, questioning recurring revenue and performance differences.",reddit
+2024,"Wow, I sold puts and lost money.",reddit
+2025,I would love to see how it does on LLM training with Andrej Karpathy's nanochat.,reddit
+2025,"It seems more suited for training than inference, with poor inference results validated.",reddit
+2025,"Peak GPU power is 50W, total package around 100-200W, good for Vera successor's power consumption.",reddit
+2025,I feel that's all I've seen. Lots of unwarranted glazing with no critical opinions.,reddit
+2025,"VRR is broken for me and the service I would have rated it 9/10, cannot stand judder.",reddit
+2025,"DGX Spark is much better, but it costs more.",reddit
