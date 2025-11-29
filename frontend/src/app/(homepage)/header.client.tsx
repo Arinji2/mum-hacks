@@ -4,8 +4,11 @@ import { Menu, X } from "lucide-react";
 import { Input } from "./input";
 import { Sidebar } from "./sidebar";
 import { useState } from "react";
+import { useSearchParams } from "next/navigation";
 
 export function HeaderClient({ children }: { children: React.ReactNode }) {
+	const searchParams = useSearchParams();
+	const brandName = searchParams.get("brand");
 	const [showSidebar, setShowSidebar] = useState(false);
 	return (
 		<div className="w-full flex relative flex-row items-start justify-start">
@@ -13,7 +16,9 @@ export function HeaderClient({ children }: { children: React.ReactNode }) {
 			<div className="w-full h-full  flex flex-col gap-7 items-start justify-start py-6 px-4">
 				<div className="w-full h-fit flex flex-col gap-2">
 					<div className="w-full h-fit flex flex-row items-center justify-between">
-						<h2 className="font-bold text-5xl text-black">Google</h2>
+						<h2 className="font-bold text-5xl text-black">
+							{brandName ?? "Auto"}
+						</h2>
 						<button
 							onClick={() => {
 								setShowSidebar((prev) => !prev);
@@ -28,7 +33,8 @@ export function HeaderClient({ children }: { children: React.ReactNode }) {
 						</button>
 					</div>
 					<p className="text-lg  text-slate-600">
-						Products from google from 2018-current...
+						Products from {brandName ? brandName.toLowerCase() : "all products"}{" "}
+						from 2018-current...
 					</p>
 				</div>
 

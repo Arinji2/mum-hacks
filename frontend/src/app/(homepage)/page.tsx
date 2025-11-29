@@ -1,5 +1,4 @@
-import { getAuthToken } from "@/lib/pocketbase";
-import { Card, Cards } from "./card";
+import { Cards } from "./card";
 import { HeaderClient } from "./header.client";
 import { readFile } from "fs/promises";
 export type Mapping = {

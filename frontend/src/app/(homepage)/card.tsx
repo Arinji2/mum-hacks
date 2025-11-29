@@ -2,9 +2,10 @@
 import Image from "next/image";
 import { Mapping } from "./page";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
+import { useRouter } from "next/navigation";
 
 export function Cards({ mappingData }: { mappingData: Mapping[] }) {
-	const [parent, _] = useAutoAnimate(/* optional config */);
+	const [parent, _] = useAutoAnimate();
 	return (
 		<div
 			ref={parent}
@@ -17,9 +18,15 @@ export function Cards({ mappingData }: { mappingData: Mapping[] }) {
 	);
 }
 export function Card({ i, mappingData }: { i: number; mappingData: Mapping }) {
+	const router = useRouter();
 	return (
 		<div
-			className="w-full h-auto gap-6 aspect-[9/16] max-h-[300px] border-[3px] border-black shadow-button flex flex-col items-center justify-start"
+			onClick={() => {
+				router.push(
+					`/analysis?productName=${encodeURIComponent(mappingData.name)}&brandName=${encodeURIComponent(mappingData.brand)}`,
+				);
+			}}
+			className="w-full h-auto gap-6 aspect-[9/16] max-h-[300px] border-[3px] border-black hover:shadow-buttonHover shadow-button flex flex-col items-center justify-start"
 			key={i}
 		>
 			<div className="w-full relative h-[40%] ">

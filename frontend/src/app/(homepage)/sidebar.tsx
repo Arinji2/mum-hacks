@@ -1,6 +1,7 @@
 "use client";
 import { Checkbox } from "@/components/ui/checkbox";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 export function Sidebar({ showSidebar }: { showSidebar: boolean }) {
@@ -34,7 +35,9 @@ export function Sidebar({ showSidebar }: { showSidebar: boolean }) {
 		>
 			{/* HEADER */}
 			<div className="w-full h-fit gap-2 flex flex-row items-center justify-start">
-				<div className="size-10 bg-black"></div>
+				<div className="size-10 relative ">
+					<Image fill src="/logo.jpeg" alt="logo" />
+				</div>
 				<h1 className="text-black text-3xl font-bold">Clarity</h1>
 			</div>
 

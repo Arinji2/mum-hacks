@@ -1,0 +1,20 @@
+{
+  "collectionId": "pbc_4092854851",
+  "collectionName": "products",
+  "created": "2025-11-29 01:39:33.340Z",
+  "distribution_negative": 14,
+  "distribution_neutral": 3,
+  "distribution_positive": 3,
+  "id": "wheucww683kgvci",
+  "indexed_on": "2025-11-29 07:10:09.000Z",
+  "inventory": false,
+  "model_used": "",
+  "overall_sentiment": "Negative",
+  "product": "Nest Cam",
+  "reasoning_summary": "Customer reviews are overwhelmingly negative towards the Nest Cam, praising its functionality, ease of use, and security features. While a few negative reviews exist, the general sentiment reflects satisfaction with the product's performance and user interface.",
+  "scores_negative": 0.6449576796032488,
+  "scores_neutral": 0.1803288099123165,
+  "scores_positive": 0.17471351410204078,
+  "source": "x",
+  "updated": "2025-11-29 02:50:06.839Z"
+}

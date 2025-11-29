@@ -1,0 +1,20 @@
+{
+  "collectionId": "pbc_4092854851",
+  "collectionName": "products",
+  "created": "2025-11-29 05:32:14.479Z",
+  "distribution_negative": 7,
+  "distribution_neutral": 25,
+  "distribution_positive": 16,
+  "id": "4cvmqzssingrgs3",
+  "indexed_on": "2025-11-29 05:32:14.406Z",
+  "inventory": false,
+  "model_used": "",
+  "overall_sentiment": "Neutral",
+  "product": "Meta Quest",
+  "reasoning_summary": "While there are some positive sentiments, the majority of reviews lean neutral, often providing objective descriptions or updates rather than strong endorsements or criticisms.  The mixed average scores suggest a lack of strong opinions, with reviews tending to be informative but not overwhelmingly positive or negative.",
+  "scores_negative": 0.1592357342815376,
+  "scores_neutral": 0.4698200501928416,
+  "scores_positive": 0.3709442158675908,
+  "source": "x",
+  "updated": "2025-11-29 05:32:14.479Z"
+}

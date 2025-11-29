@@ -1,0 +1,20 @@
+{
+  "collectionId": "pbc_4092854851",
+  "collectionName": "products",
+  "created": "2025-11-29 05:34:14.158Z",
+  "distribution_negative": 6,
+  "distribution_neutral": 4,
+  "distribution_positive": 60,
+  "id": "h92os2bqhdgikoy",
+  "indexed_on": "2025-11-29 05:34:14.082Z",
+  "inventory": false,
+  "model_used": "",
+  "overall_sentiment": "Positive",
+  "product": "Iphone 17",
+  "reasoning_summary": "The vast majority of reviews for the iPhone 17 line are overwhelmingly positive. Users are particularly impressed with the iPhone 17 Pro's camera, features, and overall performance, often citing it as a significant upgrade and the \"best phone ever.\"",
+  "scores_negative": 0.08250975923396514,
+  "scores_neutral": 0.10368553815143448,
+  "scores_positive": 0.8138046987088663,
+  "source": "x",
+  "updated": "2025-11-29 05:34:14.158Z"
+}
