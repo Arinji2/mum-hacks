@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+pandas
+numpy
+pydantic
+transformers
+torch
+scipy
+langgraph
+langchain-google-genai
+tqdm
