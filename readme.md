@@ -66,7 +66,7 @@ Follow these steps to run Clarity locally.
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YourOrg/clarity.git
+git clone https://github.com/Arinji2/mum-hacks
 cd clarity
 ```
 
@@ -79,12 +79,14 @@ Install dependencies for each component.
 ### Front-end (NextJS)
 
 ```bash
+cd frontend
 npm install
 ```
 
 ### Back-end (FastAPI)
 
 ```bash
+cd backend
 pip install -r requirements.txt
 ```
 
@@ -103,12 +105,14 @@ go run scraper/main.go
 ### Start the FastAPI Backend
 
 ```bash
+cd backend
 uvicorn app.main:app --reload
 ```
 
 ### Start the NextJS Frontend
 
 ```bash
+cd frontend
 npm run dev
 ```
 
