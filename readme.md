@@ -4,6 +4,8 @@ Clarity is an advanced enterprise intelligence system designed to mitigate decis
 
 We replace slow, subjective human analysis with an autonomous pipeline of specialized AI agents, ensuring every data point is accompanied by an auditable trail of reasoning.
 
+[Check out our fully hosted Clarity Website](https://clarity.arinji.com)
+
 ---
 
 # Key Features & Business Value
@@ -117,3 +119,4 @@ npm run dev
 ```
 
 ---
+
