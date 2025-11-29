@@ -1,6 +1,5 @@
 import { Cards } from "./card";
 import { HeaderClient } from "./header.client";
-import { readFile } from "fs/promises";
 export type Mapping = {
 	name: string;
 	brand: string;
@@ -13,8 +12,8 @@ export default async function HomePage({
 	searchParams: Promise<{ search: string; brand: string }>;
 }) {
 	const { search, brand } = await searchParams;
-	const mappingData = await readFile("./lib/mapping.json", "utf8");
-	const mapping: Mapping[] = JSON.parse(mappingData);
+	const response = await fetch("http://cdn.arinji.com/u/TppaYA.json");
+	const mapping: Mapping[] = await response.json();
 
 	let filtered =
 		search && search.length > 0
