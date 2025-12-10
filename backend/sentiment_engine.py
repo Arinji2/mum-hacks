@@ -3,7 +3,7 @@ import os
 # --- API KEY SETUP ---
 # Ideally, move this to a .env file, but for now, we set it here.
 if "GEMINI_API_KEY" not in os.environ:
-    os.environ["GEMINI_API_KEY"] = "AIzaSyD9NdXZJn2pBsgI8nBbTfCY5SX3HgXBMt8"
+    os.environ["GEMINI_API_KEY"] = "Insert API Key Here"
 
 from typing import TypedDict, List, Dict, Optional
 import json
